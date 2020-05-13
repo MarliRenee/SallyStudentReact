@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sally Student Resume</title>
+  <meta name="description" content="Sally Student's resume: Eater of Salads & Stock Photo Enthusiast. Student project sample for Bloc, Module 4.4.1,created by Marli Renee">
+  <link href="./main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="app">
+
+    </div>
+  
+    <script
+        src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script
+        src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script
+        src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+  
+    <script type="text/babel">
+        const app = document.getElementById('app');
+        function App(props) {
+            console.log(props)
+            return (
+                <div>
+                    <header>
+                        <h1>Sally Student</h1>
+                        <h2>Salad Eater & Stock Photo Enthusiast</h2>
+                            <p>Hi there! I'm glad you stopped by. Check out my resume below.</p>
+                    </header>
+                
+                    <main>
+                        <div id='main'>
+                            <section id="EmploymentHistory">
+                                <h2>EMPLOYMENT HISTORY</h2>
+                                <h3>Freepik Stock Photos</h3>
+                                <div id="info"> 
+                                    <h4>Model | 2015-2019 </h4> 
+                                    <p>Pretended to laugh through long photo shoots. Frequently wore white. Drank lots of water with small slices of lemon.</p>
+                                </div>
+
+                                <h3>Make Salad Not Porn</h3> 
+                                <div id="info">
+                                    <h4>Head Chef | 2010-2015 </h4> 
+                                    <p>Assembled bland romaine dishes, enriched by the occasional cherry tomato or carrot.</p>
+                                </div>
+                            </section>
+
+                            <section id="Skills">
+                                <h2>SKILLS</h2>
+                                <ul>
+                                    <li>Dramatic Poses</li>
+                                    <li>Flossing</li>
+                                    <li>Rage managment</li>
+                                </ul>
+                            </section>
+
+                            <section id="Education">
+                                <h2>EDUCATION</h2>
+                                <ul>
+                                    <li>B.A. Vegetable Studies, UC Stock Image </li>
+                                    <li>M.A. Fake Laughter, Generic Marketing University</li>
+                                </ul>
+                            </section>
+
+                            <section id="Contact">
+                                <h2>GET IN TOUCH!</h2>
+                                <address>
+                                    <ul id="contactOptions">
+                                        <li>
+                                        <a href="mailto:sallystudent@gmail.com">Email Sally</a>
+                                        </li>
+                                        <li>
+                                            @sallyStudent
+                                        </li>
+                                        <li>
+                                            111.222.3333
+                                        </li> 
+                                    </ul>
+                                    <div id="ProfilePhoto">
+                                            <img src="https://thedailybanter.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTUwOTA3NTI5ODcyODExODY1/woman-eating-salad-one.jpg" width="350"alt="woman laughing eating salad"/>
+                                    </div>
+                                </address>    
+                            </section>
+                        </div>
+                    </main>
+                </div>    
+            );
+        }
+        ReactDOM.render(
+            <App 
+            name='Sally Student'
+            />,
+            document.querySelector('#app')
+        );
+    </script>
+</body>
+</html>

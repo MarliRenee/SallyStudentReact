@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( to bottom right, rgb(226, 255, 179), rgb(151, 212, 174));
+    background-attachment: fixed;
+}
+
+header {
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    font-family: Helvetica, sans-serif;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+#EmploymentHistory {
+    border: 2px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#Skills {
+    border: 2px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 40px;
+}
+
+#Education {
+    border: 2px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 40px;
+}
+
+#info {
+    margin-left: 10px;
+}
+
+#contactOptions {
+    list-style: none;
+}
+
+#Contact {
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 40px;
+    } 
+}
